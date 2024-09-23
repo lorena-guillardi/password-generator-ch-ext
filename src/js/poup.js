@@ -20,16 +20,22 @@ document.addEventListener('DOMContentLoaded', function() {
         const useSpecial = specialCheckbox.checked;
 
         let chars = '';
+        // Regras para inclusao de letras minusculas
         if (useLowercase) chars += 'abcdefghijklmnopqrstuvwxyz';
+        // Regras para inclusao de letras maiusculas
         if (useUppercase) chars += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        // Regras para inclusao de caracteres numericos
         if (useNumbers) chars += '0123456789';
+        // Regras para inclusao de caracteres especiais
         if (useSpecial) chars += '!@#$%^&*()_+{}[]|:;<>,.?~';
 
+        // Verifica se alguma regra foi selecionada
         if (chars === '') {
             alert('Por favor, selecione pelo menos um tipo de caractere.');
             return;
         }
 
+        // Construcao da senha, conforme tamanho escolhido
         let password = '';
         for (let i = 0; i < length; i++) {
             password += chars.charAt(Math.floor(Math.random() * chars.length));
@@ -38,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         passwordInput.value = password;
     }
 
+    // Feedback visual de confirmação de cópia da senha;
     function copyPassword() {
         passwordInput.select();
         document.execCommand('copy');
