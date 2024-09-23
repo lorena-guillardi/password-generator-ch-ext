@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Gerador de Senhas Fortes - Extensão para Chrome
 
 Esta extensão para Chrome gera senhas fortes com parâmetros personalizáveis, oferecendo uma solução simples e eficaz para criar senhas seguras.
@@ -42,17 +44,20 @@ meu_projeto_extensao/
 │   │   ├── icon48.png
 │   │   └── icon128.png
 │   └── popup.html
+├── LICENSE
 ├── manifest.json
 └── README.md
+```
 
 - `src/`: Contém todos os arquivos fonte da extensão
   - `css/`: Estilos da interface do usuário
   - `js/`: Scripts de funcionalidade
   - `icons/`: Ícones da extensão em diferentes tamanhos
   - `popup.html`: Interface principal da extensão
+- `LICENSE`: Arquivo com licença
 - `manifest.json`: Arquivo de configuração da extensão
 - `README.md`: Este arquivo de documentação
-```
+
 ## Roadmap de Futuras Melhorias
 
 1. **Exclusão de caracteres específicos**
@@ -86,4 +91,4 @@ Contribuições são bem-vindas! Se você tem uma ideia para melhorar esta exten
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+© 2024 Lorena Fornasiere Vinhal Guillardi. Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
