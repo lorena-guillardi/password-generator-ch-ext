@@ -5,7 +5,9 @@ Esta extensão para Chrome gera senhas fortes com parâmetros personalizáveis.
 ## Funcionalidades
 
 - Gera senhas com tamanho personalizável (8-64 caracteres)
-- Opção para incluir caracteres alfanuméricos
+- Opção para incluir caracteres minúsculas
+- Opção para incluir caracteres maiúsculas
+- Opção para incluir caracteres números
 - Opção para incluir caracteres especiais
 - Copia a senha gerada para a área de transferência
 
