@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas Fortes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Senhas Fortes</h1>
+        <div class="form-group">
+            <label for="length">Tamanho da senha:</label>
+            <input type="number" id="length" min="8" max="64" value="16">
+        </div>
+        <div class="form-group">
+            <label for="alphanumeric">
+                <input type="checkbox" id="alphanumeric" checked>
+                Alfanumérico
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="special">
+                <input type="checkbox" id="special" checked>
+                Caracteres especiais
+            </label>
+        </div>
+        <button id="generate">Gerar Senha</button>
+        <div class="result">
+            <input type="text" id="password" readonly>
+            <button id="copy">Copiar</button>
+        </div>
+    </div>
+    <script src="js/poup.js"></script>
+</body>
+</html>
